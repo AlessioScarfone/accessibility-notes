@@ -16,7 +16,7 @@ export default defineConfig({
       { text: 'Guide', link: '/0-accessibility-notes' },
     ],
     footer: {
-      message: 'Released under the MIT License.',
+      message: 'Accessibility is essential for some, useful for all.',
       copyright: 'Copyright © 2014-present Alessio Scarfone'
     },
 
