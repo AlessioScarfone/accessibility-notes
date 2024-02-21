@@ -14,13 +14,12 @@ export default defineConfig({
     },
     nav: [
       { text: 'Guide', link: '/0-accessibility-notes' },
-      { text: 'credits', link: '/credits'}
+      { text: 'Credits', link: '/credits'}
     ],
     footer: {
       message: 'Accessibility is essential for some, useful for all.',
       copyright: 'Copyright © 2014-present Alessio Scarfone'
     },
-
     sidebar: [
       {
         text: 'Introduction and references',
