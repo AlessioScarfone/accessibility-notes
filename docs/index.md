@@ -6,6 +6,9 @@ hero:
   name: Web Accessibility Notes
   # text: My great project tagline
   tagline: Accessibility is essential for some, useful for all.
+  image:
+    src: /assets/home_img.png
+    alt: ""
   actions:
     - theme: brand
       text: Get Started

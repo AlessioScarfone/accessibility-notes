@@ -14,6 +14,7 @@ export default defineConfig({
     },
     nav: [
       { text: 'Guide', link: '/0-accessibility-notes' },
+      { text: 'credits', link: '/credits'}
     ],
     footer: {
       message: 'Accessibility is essential for some, useful for all.',
