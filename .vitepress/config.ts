@@ -2,23 +2,35 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Accessibility Notes ♿",
+  title: "Accessibility Notes",
   description: "Web Accessibility Notes",
   lastUpdated: true,
   cleanUrls: true,
   srcDir: "docs",
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: 'home_img.png' }],    //favicon
+    ['meta', { name: 'lang', content: 'en-US' }],
+    ['meta', { name: 'theme-color', content: '#5f67ee' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:locale', content: 'en' }],
+    ['meta', { property: 'og:title', content: 'Accessibility Notes' }],
+    ['meta', { property: 'og:site_name', content: 'Accessibility Notes' }],
+    // ['meta', { property: 'og:image', content: 'home_img.png' }],
+    // ['meta', { property: 'og:url', content: 'https://vitepress.dev/' }],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: { src: 'home_img.png', width: 24, height: 24 },
     search: {
       provider: 'local'
     },
     nav: [
       { text: 'Guide', link: '/0-accessibility-notes' },
-      { text: 'Credits', link: '/credits'}
+      { text: 'Credits', link: '/credits' }
     ],
     footer: {
       message: 'Accessibility is essential for some, useful for all.',
-      copyright: 'Copyright © 2014-present Alessio Scarfone'
+      copyright: 'Copyright © 2024-present Alessio Scarfone'
     },
     sidebar: [
       {
