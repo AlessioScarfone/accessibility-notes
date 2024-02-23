@@ -26,7 +26,22 @@ export default defineConfig({
     },
     nav: [
       { text: 'Guide', link: '/0-accessibility-notes' },
-      { text: 'Credits', link: '/credits' }
+      { text: 'Credits', link: '/credits' },
+      {
+        text: 'Quick Resources',
+        items: [
+          { text: 'Resources and Tools', link: '/10-resources' },
+          {
+            text: "WCAG", items: [
+              { text: 'WCAG 2.2', link: 'https://www.w3.org/TR/WCAG22/', },
+              { text: 'WCAG Quick Reference', link: 'https://www.w3.org/WAI/WCAG22/quickref/', },
+            ]
+          },
+          { text: "WAI-ARIA 1.2", link: 'https://www.w3.org/TR/wai-aria-1.2/' },
+          { text: "WAI Tutorial", link: 'https://www.w3.org/WAI/tutorials/' },
+          { text: 'ARIA Authoring Practices Guide', link: 'https://www.w3.org/WAI/ARIA/apg/' }
+        ]
+      }
     ],
     footer: {
       message: 'Accessibility is essential for some, useful for all.',
