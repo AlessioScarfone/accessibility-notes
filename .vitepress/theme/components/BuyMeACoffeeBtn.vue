@@ -27,12 +27,16 @@ const props = defineProps({
     padding: 0.3rem 0.5rem;
     border-radius: 8px;
     margin-inline: 1rem;
+    text-decoration: none;
 
     font-family: var(--vp-font-family-base);
     border-color: var(--vp-button-brand-border);
     color: var(--vp-button-brand-text);
     background-color: var(--vp-button-brand-bg);
+}
 
+.bmc-button:hover {
+    color: var(--vp-button-brand-text);
 }
 
 .bmc-button img {

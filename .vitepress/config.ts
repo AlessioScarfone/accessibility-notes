@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { GITHUB_LINK } from './constants'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -152,7 +153,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/AlessioScarfone' }
+      { icon: 'github', link: GITHUB_LINK }
     ]
   }
 })
