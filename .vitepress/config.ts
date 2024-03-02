@@ -5,7 +5,7 @@ import { GITHUB_LINK } from './constants'
 export default defineConfig({
   title: "Accessibility Notes",
   description: "Web Accessibility Notes",
-  lastUpdated: true,
+  // lastUpdated: true,
   cleanUrls: true,
   srcDir: "docs",
   head: [
@@ -45,7 +45,7 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: 'Accessibility is essential for some, useful for all.',
+      message: '<i>Accessibility is essential for some, useful for all.</i>',
       copyright: 'Copyright © 2024-present Alessio Scarfone'
     },
     sidebar: [

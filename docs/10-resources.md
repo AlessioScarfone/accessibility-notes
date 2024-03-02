@@ -19,10 +19,14 @@
 
 ### 🗞️ Articles
 - [10 fundamental web accessibility tips for front-end developers](https://www.frontendmentor.io/articles/10-fundamental-web-accessibility-tips-for-frontend-developers-rUurADGxCt)
+- [WCAG primer](https://tetralogical.com/blog/2020/04/10/wcag-primer/)
 
 ### 🎥 Videos
 - [Scimba - Learn Accessible Web Design](https://scrimba.com/learn/accessibility)
 
+### Checklist and Quick Reference
+- [WCAG Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/)
+- [Check your WCAG compliance](https://www.a11yproject.com/checklist/)
 
 ## 🛠️ Tools
 
