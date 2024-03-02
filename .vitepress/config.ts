@@ -103,8 +103,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           {
-            text: "Introduction",
-            link: "/7-principles/introduction.md"
+            text: "Principles, standards, and checks",
+            link: "/7-principles/principles-standard-checks.md"
           },
           {
             text: "I. Perceivable",

@@ -50,7 +50,7 @@ The following table includes many of the most common online interactions, the st
 
 |Interaction                    |Keystrokes                         | Notes|
 |---                            |---                                | ---|
-|Navigate to most elements      |- `Tab` <br> - Shift+Tab: navigate bakward  |- Keyboard focus indicators must be present. <br> - Navigation order should be logical and intuitive.|
+|Navigate to most elements      |- `Tab` <br> - `Shift+Tab`: navigate bakward  |- Keyboard focus indicators must be present. <br> - Navigation order should be logical and intuitive.|
 |Link                           |- `Enter`| |
 |Button                         |- `Enter or Spacebar`| Ensure elements with ARIA `role="button"` can be activated with both key commands.|
 |Checkbox                       |- `Spacebar`: check/uncheck a checkbox| Users can typically select zero, one, or multiple options from group of checkboxes. |
@@ -154,7 +154,7 @@ People with vision, cognitive and learning disabilities can find movement and an
 **Point of regard** is the place where you are reading and have focus. When content is zoomed in, if the place being read changes, people can get lost. For example: information displayed in hover state can be hard to read with zoom or magnification, expecially if the hover state is larger than the view. Another issue arise when content is zoomed in proximity to related content. If related information are not grouped together (ex. label and input), it can be lost and become unusable.
 
 
-### 4.1.6. Screen magnification
+## Screen magnification
 **Screen magnification software** enlarges screen content. It can be used to enalrge all or part of the screen making it easier for people with low vision to see text and images. It is used by people with functional vision and can be used in combination with a screen reader. People with cognitive and learning disabilities can also benefit from screen magnification to hep zoom in on a content and remove distractions such as banner adv and movement.
 
 When zoomed in, the focus will follow the mouse pointer which is enlarged and can be customized for size and color to suit reading needs. Some other feature are:

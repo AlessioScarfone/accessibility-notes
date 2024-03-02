@@ -3,12 +3,12 @@
 More specifically, people can: perceive, understand, navigate, and interact with the Web contribute to the Web.
 Web accessibility encompasses all disabilities that affect access to the Web, including:
 
-- auditory
-- cognitive
-- neurological
-- physical
-- speech
-- visual
+- **auditory**
+- **cognitive**
+- **neurological**
+- **physical**
+- **speech**
+- **visual**
  
 Web accessibility also benefits people without disabilities, for example:
 
