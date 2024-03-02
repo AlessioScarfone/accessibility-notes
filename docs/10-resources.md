@@ -14,7 +14,7 @@
 ### 📓 Other guides and resources:
 - [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/)
 - [web.dev learn accessibility](https://web.dev/learn/accessibility)
-- [A11Y Project](https://www.a11yproject.com/resources/#courses)
+- [A11Y Project](https://www.a11yproject.com/resources/)
 
 
 ### 🗞️ Articles
@@ -34,7 +34,7 @@
 - [Pa11y](https://pa11y.org/): a command-line interface which loads web pages and highlights any accessibility issues it finds. Useful for when you want to run a one-off test against a web page.
 - [Wave browser extension](https://wave.webaim.org/extension/): the WAVE Chrome, Firefox, and Edge extensions allows you to evaluate web content for accessibility issues directly within your browser.
 - [Web Developer tools](https://chromewebstore.google.com/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm): adds a toolbar button with various web developer tools.
-
+- [Accessibility Insights - MICROSOFT](https://accessibilityinsights.io/): Solve accessibility issues before they reach your customers.
 
 ### 💻 Dev Tools and libraries
 
