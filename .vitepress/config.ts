@@ -18,6 +18,9 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: 'Accessibility Notes' }],
     // ['meta', { property: 'og:image', content: 'home_img.png' }],
     // ['meta', { property: 'og:url', content: 'https://vitepress.dev/' }],
+    
+    // Vercel Analytics
+    ['script', { src: "/_vercel/insights/script.js", defer: 'true' }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
