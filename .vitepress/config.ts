@@ -16,8 +16,7 @@ export default defineConfig({
     ['meta', { property: 'og:locale', content: 'en' }],
     ['meta', { property: 'og:title', content: 'Accessibility Notes' }],
     ['meta', { property: 'og:site_name', content: 'Accessibility Notes' }],
-    ['meta', { property: 'og:image', content: 'home_img.png' }],
-    ['meta', { property: 'og:description', content: 'Web Accessibility Notes' }],
+    ['meta', { property: 'og:image', content: 'https://accessibility-notes.vercel.app//og_img.png' }],
     // ['meta', { property: 'og:url', content: 'https://vitepress.dev/' }],
 
     // Vercel Analytics
