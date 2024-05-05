@@ -20,11 +20,12 @@
 ### 🗞️ Articles
 - [10 fundamental web accessibility tips for front-end developers](https://www.frontendmentor.io/articles/10-fundamental-web-accessibility-tips-for-frontend-developers-rUurADGxCt)
 - [WCAG primer](https://tetralogical.com/blog/2020/04/10/wcag-primer/)
+- [Introduction to Web Accessibility (A11Y)](https://unicorn-utterances.com/posts/intro-to-web-accessibility)
 
 ### 🎥 Videos
 - [Scimba - Learn Accessible Web Design](https://scrimba.com/learn/accessibility)
 
-### Checklist and Quick Reference
+### Checklist and Quick Reference
 - [WCAG Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/)
 - [Check your WCAG compliance](https://www.a11yproject.com/checklist/)
 
@@ -35,6 +36,7 @@
 - [Wave browser extension](https://wave.webaim.org/extension/): the WAVE Chrome, Firefox, and Edge extensions allows you to evaluate web content for accessibility issues directly within your browser.
 - [Web Developer tools](https://chromewebstore.google.com/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm): adds a toolbar button with various web developer tools.
 - [Accessibility Insights - MICROSOFT](https://accessibilityinsights.io/): Solve accessibility issues before they reach your customers.
+- [axe-core](https://github.com/dequelabs/axe-core): Axe is an accessibility testing engine for websites and other HTML-based user interfaces. 
 
 ### 💻 Dev Tools and libraries
 
