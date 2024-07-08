@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /1-what-is-web-accessibility
+      link: /accessibility-for-everyone/what-is-web-accessibility
     - theme: alt
       text: Resources
-      link: /11-resources
+      link: /resources
 features:
   - title: What is?
     icon: ❓

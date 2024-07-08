@@ -29,13 +29,13 @@ export default defineConfig({
       provider: 'local'
     },
     nav: [
-      { text: 'Guide', link: '/0-accessibility-notes' },
+      { text: 'Guide', link: '/accessibility-notes' },
       { text: 'Credits', link: '/credits' },
       {
         text: 'Quick Resources',
         items: [
-          { text: 'Resources and Tools', link: '/11-resources' },
-          { text: 'Easy Checks', link: '/10-checklist' },
+          { text: 'Resources and Tools', link: '/resources' },
+          { text: 'Easy Checks', link: '/checklist' },
           {
             text: "WCAG", items: [
               { text: 'WCAG 2.2', link: 'https://www.w3.org/TR/WCAG22/', },
@@ -53,20 +53,20 @@ export default defineConfig({
       copyright: 'Copyright © 2024-present Alessio Scarfone'
     },
     sidebar: [
-      { text: 'Introduction and references', link: '/0-accessibility-notes', },
-      { text: 'What is web accessibility?', link: '/1-what-is-web-accessibility' },
-      { text: 'Technology enabling people with disabilities', link: '/2-technology-enabling-people-with-disabilities' },
+      { text: 'Introduction and references', link: '/accessibility-notes', },
       {
         text: 'Accessibility is for everyone',
         collapsed: false,
         items: [
+          { text: 'What is web accessibility?', link: '/accessibility-for-everyone/what-is-web-accessibility' },
+          { text: 'Technology enabling people with disabilities', link: '/accessibility-for-everyone/technology-enabling-people-with-disabilities' },
           {
             text: "Accessibility, Usability, and Inclusion",
-            link: "/3-accessibility-for-everyone/accessibility-usability-inclusion"
+            link: "/accessibility-for-everyone/accessibility-usability-inclusion"
           },
           {
             text: "Impact and Benefits for Everyone",
-            link: "/3-accessibility-for-everyone/impact-and-benefit-for-everyone"
+            link: "/accessibility-for-everyone/impact-and-benefit-for-everyone"
           }
         ]
       },
@@ -76,25 +76,21 @@ export default defineConfig({
         items: [
           {
             text: "Physical disabilities",
-            link: "/4-people-and-digital-technology/physical-disabilities"
+            link: "/people-and-digital-technology/physical-disabilities"
           },
           {
             text: "Hearing and speech disabilities",
-            link: "/4-people-and-digital-technology/hearing-and-speech-disabilities"
+            link: "/people-and-digital-technology/hearing-and-speech-disabilities"
           },
           {
             text: "Cognition and learning disabilities",
-            link: "/4-people-and-digital-technology/cognition-and-learning-disabilities"
+            link: "/people-and-digital-technology/cognition-and-learning-disabilities"
+          },
+          {
+            text: "Essential components of accessibility",
+            link: "/people-and-digital-technology/essential-components-of-accessibility"
           },
         ]
-      },
-      {
-        text: "Essential components of accessibility",
-        link: "/5-essential-components-of-accessibility"
-      },
-      {
-        text: "Business cases and benefits",
-        link: "/6-business-cases-and-benefits"
       },
       {
         text: "Principles, standards, and checks",
@@ -102,58 +98,67 @@ export default defineConfig({
         items: [
           {
             text: "Principles, standards, and checks",
-            link: "/7-principles/principles-standard-checks.md"
+            link: "/principles/principles-standard-checks.md"
           },
           {
             text: "I. Perceivable",
-            link: "/7-principles/perceivable.md"
+            link: "/principles/perceivable.md"
           },
           {
             text: "II. Operable",
-            link: "/7-principles/operable.md"
+            link: "/principles/operable.md"
           },
           {
             text: "III. Understandable",
-            link: "/7-principles/understandable.md"
+            link: "/principles/understandable.md"
           },
           {
             text: "IV. Robust",
-            link: "/7-principles/robust.md"
+            link: "/principles/robust.md"
           },
         ]
       },
       {
         text: 'Accessible Rich Internet Applications',
-        // collapsed: false,
+        collapsed: false,
         items: [
           {
             text: "WAI-ARIA",
-            link: "/8-wai-aria/wcag"
+            link: "/wai-aria/wcag"
           },
           {
             text: "No ARIA is better than Bad ARIA",
-            link: "/8-wai-aria/no-aria-better-than-bad-aria"
+            link: "/wai-aria/no-aria-better-than-bad-aria"
           }
         ]
       },
       {
         text: 'Accessibility in your organization',
-        // collapsed: false,
+        collapsed: false,
         items: [
           {
+            text: "Business cases and benefits",
+            link: "/accessibility-in-your-organization/business-cases-and-benefits"
+          },
+          {
             text: "Discover and Plan",
-            link: '/9-accessibility-in-your-organization/discover-and-plan',
+            link: '/accessibility-in-your-organization/discover-and-plan',
           },
           {
             text: "Implement and Maintain",
-            link: '/9-accessibility-in-your-organization/implement-and-maintain.md',
+            link: '/accessibility-in-your-organization/implement-and-maintain.md',
           }
         ]
       },
       {
-        text: 'Basic accessibility checklist', link: '/10-checklist'
-      },
-      { text: 'Resources', link: '/11-resources' },
+        text: 'Additional resources',
+        // collapsed: false,
+        items: [
+          { text: 'Basic accessibility checklist', link: '/checklist' },
+          { text: 'Resources', link: '/resources' },
+        ]
+      }
+
     ],
 
     socialLinks: [
