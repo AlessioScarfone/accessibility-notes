@@ -33,7 +33,7 @@ These accessibility guidelines are based on the fundamental technical specificat
 > **Resources:**
 > - [W3C Accessibility Standards Overview](https://www.w3.org/WAI/standards-guidelines/)
 
-![Illustration showing hot web component relate](assets/specs.png)
+![Illustration showing hot web component relate](../assets/specs.png)
 
 ## People
 
