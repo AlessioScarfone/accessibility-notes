@@ -15,7 +15,7 @@ hero:
       link: /1-what-is-web-accessibility
     - theme: alt
       text: Resources
-      link: /10-resources
+      link: /11-resources
 features:
   - title: What is?
     icon: ❓

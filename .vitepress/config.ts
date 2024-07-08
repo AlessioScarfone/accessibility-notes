@@ -34,7 +34,8 @@ export default defineConfig({
       {
         text: 'Quick Resources',
         items: [
-          { text: 'Resources and Tools', link: '/10-resources' },
+          { text: 'Resources and Tools', link: '/11-resources' },
+          { text: 'Easy Checks', link: '/10-checklist' },
           {
             text: "WCAG", items: [
               { text: 'WCAG 2.2', link: 'https://www.w3.org/TR/WCAG22/', },
@@ -52,10 +53,7 @@ export default defineConfig({
       copyright: 'Copyright © 2024-present Alessio Scarfone'
     },
     sidebar: [
-      {
-        text: 'Introduction and references',
-        link: '/0-accessibility-notes',
-      },
+      { text: 'Introduction and references', link: '/0-accessibility-notes', },
       { text: 'What is web accessibility?', link: '/1-what-is-web-accessibility' },
       { text: 'Technology enabling people with disabilities', link: '/2-technology-enabling-people-with-disabilities' },
       {
@@ -152,7 +150,10 @@ export default defineConfig({
           }
         ]
       },
-      { text: 'Resources', link: '/10-resources' },
+      {
+        text: 'Basic accessibility checklist', link: '/10-checklist'
+      },
+      { text: 'Resources', link: '/11-resources' },
     ],
 
     socialLinks: [
