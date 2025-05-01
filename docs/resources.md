@@ -17,6 +17,7 @@
 - [web.dev learn accessibility](https://web.dev/learn/accessibility)
 - [A11Y Project](https://www.a11yproject.com/resources/)
 - [Washington Post Design System - Accessibility](https://build.washingtonpost.com/resources/accessibility)
+- [A11Y art](https://a11y.art)
 
 ### 🗞️ Articles
 - [10 fundamental web accessibility tips for front-end developers](https://www.frontendmentor.io/articles/10-fundamental-web-accessibility-tips-for-frontend-developers-rUurADGxCt)
