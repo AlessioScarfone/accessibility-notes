@@ -1,3 +1,3 @@
 # Web Accessibility Notes
 
-[Website](accessibility-notes.vercel.app)
+[Website](https://accessibility-notes.vercel.app)
