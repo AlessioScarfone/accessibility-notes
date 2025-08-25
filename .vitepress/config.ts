@@ -7,6 +7,7 @@ export default defineConfig({
   description: "Web Accessibility Notes",
   // lastUpdated: true,
   cleanUrls: true,
+  base: '/accessibility-notes/', //deploy on GH Page
   srcDir: "docs",
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: 'home_img.png' }],    //favicon
