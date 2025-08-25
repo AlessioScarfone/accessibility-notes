@@ -1,3 +1,3 @@
 # Web Accessibility Notes
 
-[Website](https://accessibility-notes.vercel.app)
+[Website](https://alessioscarfone.github.io/accessibility-notes/)
